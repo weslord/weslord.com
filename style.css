@@ -51,8 +51,21 @@ header h3 {
     display: flex;
 }
 
-
 @media (max-width: 960px) {
+    body {
+        min-width: 47em;
+    }
+
+    section > header {
+        width: 15em;
+    }
+
+    section > div {
+        width: 30em;
+    }
+}
+
+@media (max-width: 800px) {
     body {
         min-width: unset;
         padding: 1em;
@@ -66,11 +79,22 @@ header h3 {
     section > header {
         text-align: center;
         margin-bottom: 1em;
+        width: unset;
     }
 
     section > div {
         border-left: none;
         width: unset;
         max-width: 30em;
+    }
+}
+
+@media (max-width: 460px) {
+    ul {
+        column-count: 2;
+    }
+
+    .testimonials > div {
+        flex-direction: column;
     }
 }

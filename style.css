@@ -1,3 +1,52 @@
 html {
     font-family: 'Victor Mono', monospace;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+section {
+    display: flex;
+    margin-bottom: 3em;
+}
+
+section > header {
+    flex-shrink: 0;
+    width: 20em;
+    /* margin-right: 1em; */
+}
+
+section > div {
+    flex-shrink: 0;
+    width: 40em;
+    border-left: 2px solid black;
+    padding-left: 1em;
+}
+
+section > div > div {
+    margin-bottom: 2em;
+}
+
+ul {
+    column-count: 3;
+}
+
+header h2 {
+    border-bottom: 2px solid black;
+}
+
+header h3 {
+    font-style: italic;
+}
+
+.testimonials > div {
+    display: flex;
+}

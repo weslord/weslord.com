@@ -7,6 +7,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding-top: 2em;
+    min-width: 62em;
 }
 
 h1, h2, h3, h4, h5, h6 {

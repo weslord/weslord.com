@@ -6,7 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 1.5em;
+    margin: 1.5rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -15,22 +15,22 @@ h1, h2, h3, h4, h5, h6 {
 
 section {
     display: flex;
-    margin-bottom: 3em;
-    max-width: 60em;
+    margin-bottom: 3rem;
+    max-width: 60rem;
 }
 
 section > header {
-    flex: 1 0 14em;
+    flex: 1 0 14rem;
 }
 
 section > div {
-    flex: 0 1 40em;
+    flex: 0 1 40rem;
     border-left: 2px solid black;
-    padding-left: 1em;
+    padding-left: 1rem;
 }
 
 section > div > div {
-    margin-bottom: 2em;
+    margin-bottom: 2rem;
 }
 
 ul {
@@ -52,7 +52,7 @@ header h3 {
 @media (max-width: 760px) {
     body {
         min-width: unset;
-        padding: 1em;
+        padding: 1rem;
     }
 
     section {
@@ -62,13 +62,13 @@ header h3 {
 
     section > header {
         text-align: center;
-        margin-bottom: 1em;
+        margin-bottom: 1rem;
         flex: unset;
     }
 
     section > div {
         flex: unset;
-        max-width: 30em;
+        max-width: 30rem;
     }
 }
 

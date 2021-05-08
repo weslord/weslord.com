@@ -84,8 +84,25 @@ header h3 {
 }
 
 @media (max-width: 460px) {
+    html {
+        font-size: 0.8rem;
+    }
+
+    body {
+        padding: 0.5rem;
+    }
+
+    section {
+        margin-bottom: 1rem;
+    }
+
+    section > div {
+        border-left: unset;
+        padding-left: unset;
+    }
+
     ul {
-        column-count: 2;
+        column-count: 1;
     }
 
     .testimonials {

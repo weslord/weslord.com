@@ -60,6 +60,14 @@ header h3 {
     margin-bottom: unset;
 }
 
+.project-title {
+    display: flex;
+}
+
+.project-title img {
+    margin-right: 1em;
+}
+
 @media (max-width: 760px) {
     body {
         min-width: unset;

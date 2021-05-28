@@ -10,6 +10,15 @@ p {
     line-height: 1.6;
 }
 
+a {
+    color: black;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
@@ -88,6 +97,7 @@ header h3 {
     section > div {
         flex: unset;
         max-width: 30rem;
+        width: 100%;
     }
 }
 

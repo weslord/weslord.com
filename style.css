@@ -57,16 +57,19 @@ header h3 {
     font-style: italic;
 }
 
-.testimonials {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1em;
-    justify-content: space-around;
+.testimonial {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 24rem;
 }
 
-.testimonial {
-    flex: 0.5 0 10em;
-    margin-bottom: unset;
+.attribution {
+    text-align: right;
+    margin-top: 1rem;
+}
+
+.attribution .name {
+    font-style: italic;
 }
 
 .project-title {
@@ -121,13 +124,5 @@ header h3 {
 
     ul {
         column-count: 1;
-    }
-
-    .testimonials {
-        flex-direction: column;
-    }
-
-    .testimonial {
-        flex-basis: unset;
     }
 }

@@ -10,6 +10,10 @@ p {
     line-height: 1.6;
 }
 
+br {
+    margin-bottom: 0.35rem;
+}
+
 a {
     color: black;
     font-weight: bold;
@@ -58,9 +62,29 @@ header h3 {
 }
 
 .testimonial {
+    position: relative;
+
     margin-left: auto;
     margin-right: auto;
-    max-width: 24rem;
+    max-width: 28rem;
+}
+
+.quote {
+    margin-left: 1rem;
+    margin-right: 0.25rem;
+}
+
+.quote::before {
+    content: '“';
+    position: absolute;
+    top: -1.7rem;
+    transform: translateX(-75%);
+
+    font-size: 6rem;
+    font-weight: bold;
+    color: #e8e8e8;
+
+    z-index: -1;
 }
 
 .attribution {

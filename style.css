@@ -11,7 +11,7 @@ p {
 }
 
 br {
-    margin-bottom: 0.35rem;
+    margin-bottom: 0.25rem;
 }
 
 a {
@@ -70,19 +70,22 @@ header h3 {
 }
 
 .quote {
-    margin-left: 1rem;
+    margin-left: 1.2rem;
     margin-right: 0.25rem;
+
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 8px 8px rgba(255, 255, 255, 0.5);
 }
 
 .quote::before {
     content: '“';
     position: absolute;
     top: -1.7rem;
-    transform: translateX(-75%);
+    transform: translateX(-70%);
 
     font-size: 6rem;
     font-weight: bold;
-    color: #e8e8e8;
+    color: #e0e0e0;
 
     z-index: -1;
 }

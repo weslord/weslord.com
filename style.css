@@ -106,9 +106,10 @@ header h3 {
 
 .headshot {
     border-radius: 100%;
-    outline: 2px solid black;
-    border: 2px solid white;
-    margin-left: 0.8rem;
+    border: 2px solid black;
+    padding: 2px;
+    margin: -2px;
+    margin-left: 0.6rem;
 }
 
 .project-title {

@@ -64,12 +64,24 @@ header h3 {
 }
 
 .attribution {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
     text-align: right;
-    margin-top: 1rem;
+
+    margin-top: 0.6rem;
 }
 
 .attribution .name {
+    font-size: 1.15em;
     font-style: italic;
+}
+
+.headshot {
+    border-radius: 100%;
+    outline: 2px solid black;
+    border: 2px solid white;
+    margin-left: 0.8rem;
 }
 
 .project-title {

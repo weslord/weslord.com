@@ -116,11 +116,19 @@ header h3 {
 }
 
 .project-title {
-    display: flex;
+    display: inline-flex;
 }
 
 .project-title img {
     margin-right: 1em;
+}
+
+a.project-title {
+    text-decoration: none;
+}
+
+a.project-title:hover h3 {
+    text-decoration: underline;
 }
 
 @media (max-width: 760px) {

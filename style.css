@@ -49,6 +49,7 @@ section > div > div {
 
 ul {
     column-count: 3;
+    margin-top: 0.4em;
 }
 
 header h1,
